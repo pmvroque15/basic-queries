@@ -4,4 +4,4 @@ USE northwind;
 
 SELECT ProductName, UnitsInStock, UnitsOnOrder
 FROM Products
-WHERE UnitsInStock = 0;
+WHERE UnitsInStock = 0 and UnitsOnOrder > 1;
